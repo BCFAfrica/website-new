@@ -544,6 +544,7 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -597,6 +598,61 @@ section {
   height: 55px;
   margin-bottom: 15px;
 }
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.sponsors {
+  background: #fff;
+}
+
+.sponsors  .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0  0 40px 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  width: 100%;
+  height: 100;
+}
+
+.sponsors  .icon-box:hover {
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transform: translateY(-5px);
+  border-color: #ef7f4d;
+}
+
+
+
+.sponsors  .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.sponsors  .title a {
+  color: #111;
+}
+
+.sponsors  .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.sponsors  a {
+  color: #888;
+}
+
+.sponsors img {
+  position: relative;
+  display: flex;
+  width: 170px;
+
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio
